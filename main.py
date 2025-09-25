@@ -3,7 +3,10 @@ def main():
     # Complete your code here
     ##################################################
     number = int(input("Enter a number: "))
-    result = 1
+    if number % 2 == 1:
+        result = 1
+    else:                 
+        result = 0
     ########################################
     # Do not delete the return statement
     ########################################
